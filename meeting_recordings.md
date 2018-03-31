@@ -1,4 +1,4 @@
-# Meeting Recording 会议记录
+# Meeting Recordings 会议记录
 
 ## Metting 0 - Inception
 
@@ -21,9 +21,9 @@
 + 确定产品名称：SYSU Canteen 0（中山大学第零饭堂）
 
 + 候选业务范围：
-  + [基本业务](https://github.com/dtosaad/documents/blob/master/product_requirement.md#基本业务)
-  + [创新业务](https://github.com/dtosaad/documents/blob/master/product_requirement.md#创新业务)
-  + [辅助业务](https://github.com/dtosaad/documents/blob/master/product_requirement.md#辅助业务)
+  + [基本业务](https://github.com/dtosaad/documents/blob/master/product_requirements.md#基本业务)
+  + [创新业务](https://github.com/dtosaad/documents/blob/master/product_requirements.md#创新业务)
+  + [辅助业务](https://github.com/dtosaad/documents/blob/master/product_requirements.md#辅助业务)
 
 + 创新点凝练
   + 创新点 1
@@ -41,7 +41,7 @@
   + 业务6：
 
 + Product Backlog（产品特性）
-  > [Product Backlog（产品特性）](https://github.com/dtosaad/documents/blob/master/documents/product_backlog.md)
+  > [Product Backlog（产品特性）](https://github.com/dtosaad/documents/blob/master/documents/product_backlogs.md)
 
 ### Task5. 分析涉及的相关技术与潜在风险
 

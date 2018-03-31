@@ -34,5 +34,5 @@
 
 ## 沟通渠道建设
 
-+ 即时通讯群：Wechat 群聊
++ 即时通讯群：WeChat 群聊
 + Tower：[https://tower.im/projects/8d7d7a72725242b3beb1609174e058ba/](https://tower.im/projects/8d7d7a72725242b3beb1609174e058ba/)
