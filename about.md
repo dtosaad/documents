@@ -33,24 +33,29 @@
 ### Iteration 1
 
 > 时间：Week 8 ~ Week 11
+
 > 内容：扫码点餐
 
 ### Iteration 2
 
 > 时间：Week 12
+
 > 内容：协同点餐
 
 ### Iteration 3
 
 > 时间：Week 13
+
 > 内容：桌位空闲情况
 
 ### Iteration 4
 
 > 时间：Week 14
+
 > 内容：抵用券 & 外卖
 
 ### Iteration 5
 
 > 时间：Week 15
+
 > 内容：用户反馈 & 菜品推荐
