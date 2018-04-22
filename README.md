@@ -1,6 +1,6 @@
 # SYSU Canteen 0
 
-> 中山大学第零饭堂扫码点餐系统
+> 中大零饭扫码点餐系统
 
 1. [About（项目规划）](https://github.com/dtosaad/documents/blob/master/about.md)
 2. [Team Profile（团队组建）](https://github.com/dtosaad/documents/blob/master/team_profile.md)
@@ -8,7 +8,7 @@
 4. [Vision（项目愿景）](https://github.com/dtosaad/documents/blob/master/about.md#vision)
 5. [Product Backlogs（产品特性）](https://github.com/dtosaad/documents/blob/master/about.md#backlogs)
 6. [Requirement Specification（需求规格说明)](https://github.com/dtosaad/documents/blob/master/requirement_specifications.md)
-  + Usecase Diagram
+  + [Usecase Diagram](https://github.com/dtosaad/documents/blob/master/assets/use_cases.png)
 7. [Design（设计）](https://github.com/dtosaad/documents/tree/master/assets)
   + [原型图](https://modao.cc/app/YiH5dTdxFF3JzQAkRsSjOWMHPRmoodZ)
   + [UI design](https://github.com/dtosaad/documents/tree/master/assets/ui)
