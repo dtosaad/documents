@@ -1,5 +1,7 @@
 # SYSU Canteen 0
 
+<img src='assets/logo.png' align='right' style=' width:400px;height:400 px'/>
+
 > 中大零饭扫码点餐系统
 
 1. [About（项目规划）](https://github.com/dtosaad/documents/blob/master/about.md)
