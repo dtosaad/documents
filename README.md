@@ -2,11 +2,13 @@
 
 <img src='assets/logo.png' align='right' style=' width:400px;height:400 px'/>
 
-> 中大零饭扫码点餐系统。
+> 中大零饭扫码点餐系统
 
-> [点我进入 Tower](https://tower.im/projects/8d7d7a72725242b3beb1609174e058ba/)
+[点我进入 Tower](https://tower.im/projects/8d7d7a72725242b3beb1609174e058ba/)
 
-> [点我进入 Modao](https://modao.cc/app/YiH5dTdxFF3JzQAkRsSjOWMHPRmoodZ)
+[点我进入 Modao](https://modao.cc/app/YiH5dTdxFF3JzQAkRsSjOWMHPRmoodZ)
+
+---
 
 1. [About（项目规划）](https://github.com/dtosaad/documents/blob/master/about.md)
 
