@@ -2,8 +2,10 @@
 
 <img src='assets/logo.png' align='right' style=' width:400px;height:400 px'/>
 
-> 中大零饭扫码点餐系统<br/>
-> [点我进入 Tower](https://tower.im/projects/8d7d7a72725242b3beb1609174e058ba/)<br/>
+> 中大零饭扫码点餐系统。
+
+> [点我进入 Tower](https://tower.im/projects/8d7d7a72725242b3beb1609174e058ba/)
+
 > [点我进入 Modao](https://modao.cc/app/YiH5dTdxFF3JzQAkRsSjOWMHPRmoodZ)
 
 1. [About（项目规划）](https://github.com/dtosaad/documents/blob/master/about.md)
@@ -23,7 +25,7 @@
     + [6.4 State Model（状态模型）](https://github.com/dtosaad/documents/blob/master/assets/state_model.png)
     + [6.5 System Sequence Diagram（功能模型）](https://github.com/dtosaad/documents/blob/master/assets/system_sequence_diagram.png)
 
-7. [Design（设计）](https://github.com/dtosaad/documents/tree/master/assets)
+7. Design（设计）
     + [7.1 UI Design](https://github.com/dtosaad/documents/tree/master/assets/ui)
     + [7.2 Database Design](https://github.com/dtosaad/documents/blob/master/assets/database_design.png)
         + [7.2.1 用户及权限系统数据库设计](https://github.com/dtosaad/documents/blob/master/assets/database_design_privilege.png)
