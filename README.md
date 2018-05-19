@@ -54,3 +54,7 @@
 11. 建模练习
     + [郑钊 15331424](https://painterdrown.github.io/saad/assignment-7/)
     + [张子扬 15331414](https://sysuzzy.github.io/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1-07/)
+    + [钟荣柳 15331427](https://zhongrliu.github.io/HW7/)
+    + [钟敏欣 15331426]()
+    + [张志坚 15331413]()
+    + [仲攀 15331430]()
