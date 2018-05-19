@@ -4,7 +4,7 @@
 
 > 中大零饭扫码点餐系统
 
-[Gihub Pages]((https://dtosaad.github.io))
+[Gihub Pages](https://dtosaad.github.io)
 
 [Tower 团队管理](https://tower.im/projects/8d7d7a72725242b3beb1609174e058ba/)
 
