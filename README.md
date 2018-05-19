@@ -39,7 +39,7 @@
 
 8. 生产规范与指南
     + [8.1 代码规范：Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-    + [8.2 REST API 设计规范](http://www.ruanyifeng.com/blog/2014/05/restful_api)
+    + [8.2 REST API 设计规范](https://en.wikipedia.org/wiki/Representational_state_transfer)
 
 9. [Meeting Recordings（会议记录）](https://github.com/dtosaad/documents/blob/master/meeting_recordings.md)
     + [Meeting 0 - Inception](https://github.com/dtosaad/documents/blob/master/meeting_recordings.md#metting-0---inception)
@@ -56,5 +56,5 @@
     + [张子扬 15331414](https://sysuzzy.github.io/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1-07/)
     + [钟荣柳 15331427](https://zhongrliu.github.io/HW7/)
     + [钟敏欣 15331426]()
-    + [张志坚 15331413]()
+    + [张志坚 15331413](https://blog.csdn.net/zzj051319/article/details/80307210)
     + [仲攀 15331430]()
