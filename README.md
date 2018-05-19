@@ -31,9 +31,9 @@
 
 7. Design（设计）
     + [7.1 UI Design](https://github.com/dtosaad/documents/tree/master/assets/ui)
-    + [7.2 Database Design](https://github.com/dtosaad/documents/blob/master/assets/database_design.png)
-        + [7.2.1 用户及权限系统数据库设计](https://github.com/dtosaad/documents/blob/master/assets/database_design_privilege.png)
-        + [7.2.2 子系统数据库设计](https://github.com/dtosaad/documents/blob/master/assets/database_design_sub.png)
+    + 7.2 Database Design
+        + [7.2.1 用户及权限系统数据库设计](https://github.com/dtosaad/documents/blob/master/assets/database_design.png)
+        + [7.2.2 子系统数据库设计](https://github.com/dtosaad/documents/blob/master/assets/database_design.png)
         + [7.2.3 第三方数据评审结果](https://github.com/dtosaad/documents/issues)
     + [7.3 API 设计](https://github.com/dtosaad/documents/blob/master/API.md)
 
