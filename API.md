@@ -43,6 +43,7 @@
 [
   {
     "dish_id": 1,
+    "name": "蛋炒饭",
     "user_ordered_count": 2
   }
 ]
@@ -70,7 +71,8 @@
 
 ```JSON
 {
-  "dished": [
+  "user_id": 1,
+  "dishes": [
     {
       "dishid": 1,
       "name": "蛋炒饭",
