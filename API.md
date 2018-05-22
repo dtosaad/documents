@@ -74,7 +74,7 @@
   "user_id": 1,
   "dishes": [
     {
-      "dishid": 1,
+      "dish_id": 1,
       "name": "蛋炒饭",
       "price": 10.00,
       "amount": 2
