@@ -2,7 +2,27 @@
 
 ## 1. 用户部分
 
-1. 获取用户信息
+1. 用户登录
+
+> POST /users/signin
+
+![](assets/images/wx_login.png)
+
+```JSON
+{
+	"code": "xxx"
+}
+```
+
+服务器要保存 session_key 和 openid，然后根据 openid 返回 userid。
+
+```JSON
+{
+	"userid": 1
+}
+```
+
+2. 获取用户信息
 
 > GET /users/:userid
 
