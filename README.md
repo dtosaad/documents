@@ -1,6 +1,6 @@
 # SYSU Canteen 0
 
-<img src='assets/logo.png' align='right' style=' width:400px;height:400 px'/>
+<img src='assets/logo.png' align='right' style=' width:400px;height:400px'/>
 
 > 中大零饭扫码点餐系统
 
