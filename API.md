@@ -10,7 +10,7 @@
 
 ```JSON
 {
-  "code": "xxx"
+  "Code": "xxx"
 }
 ```
 
