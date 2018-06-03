@@ -27,7 +27,7 @@
     + [6.2 Use Cases（用例+活动图）](https://github.com/dtosaad/documents/blob/master/assets/use_cases.png)
     + [6.3 Domian Model（领域模型）](https://github.com/dtosaad/documents/blob/master/assets/domain_model.png)
     + [6.4 State Model（状态模型）](https://github.com/dtosaad/documents/blob/master/assets/state_model.png)
-    + [6.5 System Sequence Diagram（功能模型）](https://github.com/dtosaad/documents/blob/master/assets/system_sequence_diagram.png)
+    + [6.5 System Sequence Diagram（功能模型）](https://github.com/dtosaad/documents/blob/master/system_sequence_diagram.md)
 
 7. Design（设计）
     + [7.1 UI Design](https://github.com/dtosaad/documents/tree/master/assets/ui)
