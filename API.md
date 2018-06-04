@@ -112,7 +112,7 @@
 
 ## 2. 协同点餐
 
-1. table 表需要增加一个 orderers_count（整数）的字段，表示正在该桌子上点餐的人数，用于协同点餐的人数判断。
+1. table 表需要增加一个 orderers_count（整数）以及 user_avatar（字符串）的字段，表示正在该桌子上点餐的人数，用于协同点餐的人数判断。
 2. 需要增加一张 table_dish 表来存某张桌子点餐过程中所点的菜品
   + td_id 作为主键
   + table_id
@@ -136,7 +136,7 @@
 
 ### 2.1. 确认参与协同点餐
 
-> GET /tables/:table_id/together?userid=
+> POST /tables/:table_id/together?userid=
 
 用户进入菜单页的时候，如果检测到已经有人在点餐，则前端提示是否进入协同点餐模式，用户选择是则触发此 API。对应 table 的 orderers_count 要加 1。
 
@@ -178,4 +178,27 @@
 
 ## 3. 显示桌位
 
-### 3.1. 
+### 3.1. 获取当前所有桌位信息
+
+> GET /tables
+
+```JSON
+[
+  {
+    "table_id": 1,
+    "number": "A1",
+    "user_id": 1,
+    "user_avatar": "这里是用户头像链接"
+  }
+]
+```
+
+### 3.2. 预定桌位
+
+> POST /tables/:table_id/reservation?user_id=
+
+如果数据库 table 表对应的记录 user_id 为空，则预定成功（15分钟后取消）。
+
+### 3.2. 取消预定
+
+> DELETE /tables/:table_id/reservation?user_id=
