@@ -1,10 +1,12 @@
 # API 文档
 
-## 1. 用户部分
+## 1. 扫码点餐
 
-1. 用户登录
+### 1.1. 用户登录
 
 > POST /users/signin
+
+服务器要保存 session_key 和 openid，然后根据 openid 返回 userid。
 
 ![](assets/images/wx_login.png)
 
@@ -14,15 +16,13 @@
 }
 ```
 
-服务器要保存 session_key 和 openid，然后根据 openid 返回 userid。
-
 ```JSON
 {
 	"userid": 1
 }
 ```
 
-2. 获取用户信息
+### 1.2. 获取用户信息
 
 > GET /users/:userid
 
@@ -34,9 +34,7 @@
 }
 ```
 
-## 2. 菜品部分
-
-1. 获取所有菜品列表
+### 1.3. 获取所有菜品列表
 
 > GET /dishes
 
@@ -53,7 +51,7 @@
 ]
 ```
 
-2. 获取用户吃过的菜品列表
+### 1.4. 获取用户吃过的菜品列表
 
 > GET /dishes?userid=
 
@@ -71,7 +69,7 @@
 
 + `user_ordered_count` 用户点该道菜点了几次
 
-3. 获取每日推荐的图片链接
+### 1.5. 获取每日推荐的图片链接
 
 > GET /images/recommendation?number=
 
@@ -83,9 +81,7 @@
 ]
 ```
 
-## 3. 订单部分
-
-1. 新建订单
+### 1.6. 新建订单
 
 > POST /orders
 
@@ -113,3 +109,73 @@
 
 + `eating_mode` 用餐方式，`0` 代表堂食，`1` 代表外带，`2` 代表外卖
 + `takeout_info` 外卖信息，如果用餐方式不是外卖，这一项为 `null`
+
+## 2. 协同点餐
+
+1. table 表需要增加一个 orderers_count（整数）的字段，表示正在该桌子上点餐的人数，用于协同点餐的人数判断。
+2. 需要增加一张 table_dish 表来存某张桌子点餐过程中所点的菜品
+  + td_id 作为主键
+  + table_id
+  + dish_id
+  + count  表示当前这道菜同时被点了多少次
+
+### 2.1. 获取桌子信息
+
+> GET /tables/:table_id?user_id=
+
+用户扫码进入小程序时，会自动出发此 API，服务端从数据库查询 table 信息，如果发现 user_id 为 null 时，要改为当前用户的 user_id，而且要设 orderers_count 为 1。
+
+```JSON
+{
+  "table_id": 1,
+  "number": "A1",
+  "user_id": 1,
+  "orderers_count": 0
+}
+```
+
+### 2.1. 确认参与协同点餐
+
+> GET /tables/:table_id/together?userid=
+
+用户进入菜单页的时候，如果检测到已经有人在点餐，则前端提示是否进入协同点餐模式，用户选择是则触发此 API。对应 table 的 orderers_count 要加 1。
+
+### 2.2. 上传当前已点的菜品
+
+> POST /tables/:table_id/dishes?userid=
+
+此 API 只在协同点餐状态下才会使用（每隔 3s 调用一次）。
+
+```JSON
+[
+  {
+    "dish_id": 1,
+    "name": "蛋炒饭",
+    "ordered_count": 1 
+  }
+]
+```
+
+### 2.3. 获取当前已点的菜品
+
+> GET /tables/:table_id/dishes?userid=
+
+```JSON
+[
+  {
+    "dish_id": 1,
+    "name": "蛋炒饭",
+    "ordered_count": 1 
+  }
+]
+```
+
+### 2.4. 协同模式下提交订单
+
+> POST /orders/together?userid=
+
+比如 A, B 两人同时点餐，A 先点好了就用这个 API 提交，B 是最后一个点好的，就要进入订单确认页面。服务端对于这个 API 的处理只需要将对应 table 的 orderers_count 减 1 即可。
+
+## 3. 显示桌位
+
+### 3.1. 
