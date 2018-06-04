@@ -21,3 +21,7 @@
 **协同点餐系统顺序图** (15331424)
 
 <img src="assets/images/system_sequence_diagram/15331424协同点餐系统顺序图.png">
+
+**外卖系统顺序图** (15331427)
+
+<img src="assets/images/system_sequence_diagram/15331427外卖系统顺序图.png">
