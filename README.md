@@ -1,6 +1,6 @@
 # SYSU Canteen 0
 
-<img src='assets/logo.png' align='right' style=' width:400px;height:400px'/>
+<img src='assets/logo.png' align='right' style='width:400px;height:400px'/>
 
 > 中大零饭扫码点餐系统
 
@@ -26,6 +26,7 @@
   + 6.3. [Domian Model（领域模型）](domain_model.png)
   + 6.4. [State Model（状态模型）](state_model.png)
   + 6.5. [System Sequence Diagram（功能模型）](system_sequence_diagram.md)
+  + 6.6. [Supplementary Requirements（补充需求）](product_requirements.md#补充需求)
 
 7. Design（设计）
   + 7.1. [UI Design](assets/ui)
@@ -47,7 +48,10 @@
   + [Meeting 4 - Iteration 4](meeting_recordings.md#metting-4---iteration-4)
   + [Meeting 5 - Iteration 5](meeting_recordings.md#metting-5---iteration-5)
 
-10. [Tech Report（技术报告）](tech_report.md)
+10. Tech Report（技术报告）
+  + [微信小程序环境搭建技术报告](tech_reports/wx_mini_program_env.md)
+  + [小程序开发技术报告](tech_reports/wx_mini_program.md)
+  + [Node.js 服务端开发技术报告](tech_reports/server_end.md)
 
 11. 建模练习
   + [美团外卖用例文档](modeling_exercises/meituanwaimai.md)
