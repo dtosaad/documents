@@ -9,15 +9,15 @@
 + 美团外卖还提供送药上门、美团专送、跑腿代购等多种服务；
 + 电脑、手机APP、微信均可下单，支持美团支付、微信支付、支付宝、Apple pay等多种支付方式。
 
-<img src='../assets/images/meituanwaimai/首页.png' style=' width:375px;height:667px'/>
+<img src='../assets/images/meituanwaimai/首页.png' style=' width:150px;height:300px'/>
 
 这是美团外卖的主界面，左上方点击能使用 gps 定位到所在位置，右上方是显 示所在位置的的天气、温度，这些是外部功能。左上方点击也能自己输入现在的位置，不管 如何必须使 APP 得到一个位置，只有外卖服务覆盖了这个位置的店家才能在搜索中和下面 的推荐中出现。在位置的下方有一个搜索栏，通过关键字可以搜到想要的店家或者外卖服务。
 
-<img src='../assets/images/meituanwaimai/美食.png' style=' width:375px;height:667px'/>
+<img src='../assets/images/meituanwaimai/美食.png' style=' width:150px;height:300px'/>
 
 这是附近店家，这里可以根据不同的要求进行排序，并且这里显示了店家销量、距离、人均购买额、最低起送价等影响使用者选择的信息。最下方有三个按钮，第一个首页跳转到现在这个主界面，第二个订单跳转到订单页面，显示 过去已完成和现在还未完成的订单，第三个我的则是跳转到个人信息设置页面，在这个页面 可以进行外卖送到的地址、电话等的设置。
 
-<img src='../assets/images/meituanwaimai/青年良品.png' style=' width:375px;height:667px'/>
+<img src='../assets/images/meituanwaimai/青年良品.png' style=' width:150px;height:300px'/>
 
 上面是商家的详情页：
 
@@ -31,7 +31,7 @@
 6. 最下面有当前购物车商品的总价格，价格左边是购物车，点开显示准备支付的商品
 信息，价格右边是去结算按钮，进入提交订单页面
 
-<img src='../assets/images/meituanwaimai/确认订单.png' style=' width:375px;height:667px'/>
+<img src='../assets/images/meituanwaimai/确认订单.png' style=' width:150px;height:300px'/>
 
 上面是确认订单的页面：
 
