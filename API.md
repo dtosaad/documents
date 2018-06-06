@@ -12,7 +12,10 @@
 
 ```JSON
 {
-  "Code": "xxx"
+  "code": "xxx",
+  "wechat_name": "xxx",
+  "wechat_avatar": "xxx",
+  "location": "xxx"
 }
 ```
 

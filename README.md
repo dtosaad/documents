@@ -50,9 +50,5 @@
 10. [Tech Report（技术报告）](https://github.com/dtosaad/documents/blob/master/tech_report.md)
 
 11. 建模练习
-  + [郑钊 15331424](https://painterdrown.github.io/saad/assignment-7/)
-  + [张子扬 15331414](https://sysuzzy.github.io/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1-07/)
-  + [钟荣柳 15331427](https://zhongrliu.github.io/HW7/)
-  + [钟敏欣 15331426]()
-  + [张志坚 15331413](https://blog.csdn.net/zzj051319/article/details/80307210)
-  + [仲攀 15331430](https://blog.csdn.net/ZPLearnToRock/article/details/80385573)
+  + [美团外卖用例文档](https://github.com/dtosaad/documents/blob/master/modeling_exercises/meituanwaimai.md)
+  + [额外的个人练习（作业没作要求）](https://github.com/dtosaad/documents/blob/master/modeling_exercises/addition.md)
