@@ -51,4 +51,5 @@
 
 11. 建模练习
   + [美团外卖用例文档](https://github.com/dtosaad/documents/blob/master/modeling_exercises/meituanwaimai.md)
+  + [其他小组的建模结果与评价](modeling_exercises/reviews.md)
   + [额外的个人练习（作业没作要求）](https://github.com/dtosaad/documents/blob/master/modeling_exercises/addition.md)
