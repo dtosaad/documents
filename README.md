@@ -35,6 +35,7 @@
     + 7.2.2. [子系统数据库设计](assets/database_design.png)
     + 7.2.3. [第三方数据评审结果](https://github.com/dtosaad/documents/issues)
   + 7.3. [API 设计](API.md)
+  + 7.4. [Software Architecture Document](tech_reports/architecture.md)
 
 8. 生产规范与指南
   + 8.1. [代码规范：Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
@@ -49,7 +50,7 @@
   + [Meeting 5 - Iteration 5](meeting_recordings.md#metting-5---iteration-5)
 
 10. Tech Report（技术报告）
-  + [微信小程序环境搭建技术报告](tech_reports/wx_mini_program_env.md)
+  + [15331424 - 微信小程序环境搭建技术报告](tech_reports/wx_mini_program_env.md)
   + [小程序开发技术报告](tech_reports/wx_mini_program.md)
   + [Node.js 服务端开发技术报告](tech_reports/server_end.md)
 
