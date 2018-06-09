@@ -50,9 +50,7 @@
   + [Meeting 5 - Iteration 5](meeting_recordings.md#metting-5---iteration-5)
 
 10. Tech Report（技术报告）
-  + [15331424 - 微信小程序环境搭建技术报告](tech_reports/wx_mini_program_env.md)
-  + [小程序开发技术报告](tech_reports/wx_mini_program.md)
-  + [Node.js 服务端开发技术报告](tech_reports/server_end.md)
+  + [15331424 - 微信小程序环境搭建技术报告](tech_reports/15331424-wx_mini_program_env.md)
 
 11. 建模练习
   + [美团外卖用例文档](modeling_exercises/meituanwaimai.md)

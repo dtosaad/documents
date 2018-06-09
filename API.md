@@ -159,9 +159,7 @@
 ]
 ```
 
-### 2.3. 获取当前已点的菜品
-
-> GET /tables/:table_id/dishes?userid=
+返回最新的协同点餐信息：
 
 ```JSON
 [
@@ -173,9 +171,9 @@
 ]
 ```
 
-### 2.4. 协同模式下提交订单
+### 2.3. 协同模式下提交订单
 
-> POST /orders/together?userid=
+> POST /orders/together?table_id=
 
 比如 A, B 两人同时点餐，A 先点好了就用这个 API 提交，B 是最后一个点好的，就要进入订单确认页面。服务端对于这个 API 的处理只需要将对应 table 的 orderers_count 减 1 即可。
 
