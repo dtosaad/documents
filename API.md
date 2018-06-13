@@ -27,7 +27,7 @@
 
 ### 1.2. 获取用户信息
 
-> GET /users/:userid
+> GET /users/:userid/contact
 
 ```JSON
 {
@@ -106,7 +106,8 @@
     "name": "偷外卖死全家",
     "phone": 15521221390,
     "location": "中山大学东校区慎思园 6 号"
-  }
+  },
+  "discount_id": 1
 }
 ```
 
@@ -203,3 +204,42 @@
 ### 3.2. 取消预定
 
 > DELETE /tables/:table_id/reservation?user_id=
+
+## 4. 其它
+
+### 4.1. 菜品反馈
+
+> POST /dishes/:dish_id/review?user_id=
+
+```JSON
+{
+  "star": 4.5
+}
+```
+
+### 4.2. 菜品推荐
+
+参考上面 1.5 的 API 即可。
+
+### 4.3. 抵用券
+
+#### 4.3.1 获取用户当前的抵用券
+
+> GET /discounts?userid=
+
+```JSON
+[
+  {
+    "discount_id": 1,
+    "discount": 50  // 意思是抵 50 元
+  }
+]
+```
+
+#### 4.3.2 使用抵用券
+
+参考上面 1.6 的 API，需要增加一个 discount_id 的参数（数据库需要增加一张 user_discount 的表来存用户的抵用券），来表明用哪一张抵用券。1.6 那里的代码逻辑需要判断是否有 discount_id，有则要去数据库取出来减去相应金额并删除之。
+
+### 4.4. 外卖
+
+上面 1.2 有获取用户配送信息的 API。
