@@ -33,7 +33,7 @@
   + 7.2. Database Design
     + 7.2.1. [用户及权限系统数据库设计](assets/images/database_design.png)
     + 7.2.2. [子系统数据库设计](assets/images/database_design.png)
-    + 7.2.3. [第三方数据评审结果](https://github.com/dtosaad/documents/issues)
+    + 7.2.3. [第三方数据评审结果](https://github.com/dtosaad/documents/issues?q=is%3Aissue+is%3Aclosed)
   + 7.3. [API 设计](API.md)
   + 7.4. [Software Architecture Document](tech_reports/architecture.md)
 
