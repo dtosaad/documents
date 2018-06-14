@@ -47,7 +47,6 @@
   + [Meeting 2 - Iteration 2](meeting_recordings.md#metting-2---iteration-2)
   + [Meeting 3 - Iteration 3](meeting_recordings.md#metting-3---iteration-3)
   + [Meeting 4 - Iteration 4](meeting_recordings.md#metting-4---iteration-4)
-  + [Meeting 5 - Iteration 5](meeting_recordings.md#metting-5---iteration-5)
 
 10. Tech Report（技术报告）
   + [15331424 - 微信小程序环境搭建技术报告](tech_reports/15331424-wx_mini_program_env.md)
