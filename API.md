@@ -50,7 +50,8 @@
     "name": "蛋炒饭",
     "ordered_count": 999,
     "price": 10.00,
-    "star_count": 5
+    "star_count": 5,
+    "num": 0
   }
 ]
 ```
@@ -64,6 +65,7 @@
 - price(float)：菜品的价格
 - star_count(int)：菜品的星级
   - 只能是0-5的整数
+- num(int)：用户预定的数量（默认为0，只是为了我前端方便处理数据）
 
 ### 1.4. 获取用户吃过的菜品列表
 
