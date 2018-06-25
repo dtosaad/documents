@@ -45,14 +45,25 @@
 [
   {
     "dish_id": 1,
+    "menu": "焗饭",
+    "image": "url",
     "name": "蛋炒饭",
     "ordered_count": 999,
     "price": 10.00,
-    "star_count": 420,
-    "star_total": 500
+    "star_count": 5
   }
 ]
 ```
+
+- dish_id(int)：菜品id
+- menu(string)：菜品所在分类
+  - 分类具体有：铁板，披萨，焗饭，小吃，饮料。
+- image(string)：菜品的图片url吧？没想好
+- name(string)：菜品名字
+- ordered_count(int)：菜品的存量
+- price(float)：菜品的价格
+- star_count(int)：菜品的星级
+  - 只能是0-5的整数
 
 ### 1.4. 获取用户吃过的菜品列表
 
