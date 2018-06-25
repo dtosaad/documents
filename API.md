@@ -63,8 +63,6 @@
 - dish_name(string)：菜品名字
 - ordered_count(int)：菜品的存量
 - price(float)：菜品的价格
-- star_count(int)：菜品的星级
-  - 只能是0-5的整数
 - star_times：用户评星次数
 - star_count：累计星数
 
