@@ -36,11 +36,12 @@
     + 7.2.3. [第三方数据评审结果](https://github.com/dtosaad/documents/issues?q=is%3Aissue+is%3Aclosed)
   + 7.3. [API 设计](API.md)
   + 7.4. [Software Architecture Document](tech_reports/architecture.md)
+  + 7.5. [用例、ECB 的顺序图和类图](ECB.md)
 
 8. 生产规范与指南
   + 8.1. [代码规范：Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
   + 8.2. [REST API 设计规范](https://en.wikipedia.org/wiki/Representational_state_transfer)
-  + 8.3.
+  + 8.3. [框架目录设计与逻辑架构与 ECB 的关系](architecture_relationship.md)
   + 8.4. [Readme](README.md)
 
 X1. [Meeting Recordings（会议记录）](meeting_recordings.md)
