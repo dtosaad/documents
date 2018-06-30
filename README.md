@@ -40,6 +40,8 @@
 8. 生产规范与指南
   + 8.1. [代码规范：Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
   + 8.2. [REST API 设计规范](https://en.wikipedia.org/wiki/Representational_state_transfer)
+  + 8.3.
+  + 8.4. [Readme](README.md)
 
 X1. [Meeting Recordings（会议记录）](meeting_recordings.md)
 
@@ -52,7 +54,7 @@ X1. [Meeting Recordings（会议记录）](meeting_recordings.md)
 X2. 建模练习
 + [美团外卖用例文档](modeling_exercises/meituanwaimai.md)
 + [其他小组的建模结果与评价](modeling_exercises/reviews.md)
-+ [额外的个人练习](modeling_exercises/addition.md)
++ [个人建模练习](modeling_exercises/addition.md)
 
 X3. Final Report
 
@@ -61,4 +63,3 @@ X3. Final Report
 - [个人分支的 GIT 统计报告截图](git_screenshot.md)
 - [自认为最得意/或有价值/或有苦劳的工作清单，含简短说明（一句话）](work_list.md)
 - [个人的技术类、项目管理类博客清单（只需要名称与 url ）](blog_list.md)
-
