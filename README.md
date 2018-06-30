@@ -41,17 +41,24 @@
   + 8.1. [代码规范：Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
   + 8.2. [REST API 设计规范](https://en.wikipedia.org/wiki/Representational_state_transfer)
 
-9. [Meeting Recordings（会议记录）](meeting_recordings.md)
-  + [Meeting 0 - Inception](meeting_recordings.md#metting-0---inception)
-  + [Meeting 1 - Iteration 1](meeting_recordings.md#metting-1---iteration-1)
-  + [Meeting 2 - Iteration 2](meeting_recordings.md#metting-2---iteration-2)
-  + [Meeting 3 - Iteration 3](meeting_recordings.md#metting-3---iteration-3)
-  + [Meeting 4 - Iteration 4](meeting_recordings.md#metting-4---iteration-4)
+X1. [Meeting Recordings（会议记录）](meeting_recordings.md)
 
-10. Tech Report（技术报告）
-  + [15331424 - 微信小程序环境搭建技术报告](tech_reports/15331424-wx_mini_program_env.md)
++ [Meeting 0 - Inception](meeting_recordings.md#metting-0---inception)
++ [Meeting 1 - Iteration 1](meeting_recordings.md#metting-1---iteration-1)
++ [Meeting 2 - Iteration 2](meeting_recordings.md#metting-2---iteration-2)
++ [Meeting 3 - Iteration 3](meeting_recordings.md#metting-3---iteration-3)
++ [Meeting 4 - Iteration 4](meeting_recordings.md#metting-4---iteration-4)
 
-11. 建模练习
-  + [美团外卖用例文档](modeling_exercises/meituanwaimai.md)
-  + [其他小组的建模结果与评价](modeling_exercises/reviews.md)
-  + [额外的个人练习（作业没作要求）](modeling_exercises/addition.md)
+X2. 建模练习
++ [美团外卖用例文档](modeling_exercises/meituanwaimai.md)
++ [其他小组的建模结果与评价](modeling_exercises/reviews.md)
++ [额外的个人练习](modeling_exercises/addition.md)
+
+X3. Final Report
+
+- [课程学习自我总结](personal_summary.md)
+- [PSP 2.1 统计表](psp-2.1_count.md)
+- [个人分支的 GIT 统计报告截图](git_screenshot.md)
+- [自认为最得意/或有价值/或有苦劳的工作清单，含简短说明（一句话）](work_list.md)
+- [个人的技术类、项目管理类博客清单（只需要名称与 url ）](blog_list.md)
+
