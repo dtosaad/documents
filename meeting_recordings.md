@@ -46,7 +46,7 @@
 
 > 目标：扫码点餐
 
-1. 产品经理完成扫码点餐的原型图
+1. 产品经理完成扫码点餐的原型图（[Modao工具 最初原型](https://modao.cc/app/YiH5dTdxFF3JzQAkRsSjOWMHPRmoodZ)）
 2. UI 设计师根据原型图设计页面细节
 3. 前端工程师根据原型图
 4. 后端工程师完成数据库表的设计、以及提供扫码点餐过程中设计的 API
@@ -86,6 +86,8 @@
   + 细化阶段补充明确的功能性需求
   + 补充文档的可靠性、可支持性、约束和接口模块
   + 补充文档的法律问题、所关注领域内的信息
+
+![](/Users/minxinzhong/Documents/GitHub/documents/assets/images/tower.jpeg)
 
 ## Metting 4 - Iteration 4
 
