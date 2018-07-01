@@ -243,7 +243,7 @@
 [
   {
     "discount_id": 1,
-    "discount": 50  // 意思是抵 50 元
+    "discount": 50
   }
 ]
 ```
