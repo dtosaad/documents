@@ -2,8 +2,6 @@
 
 <img src='assets/logo.png' align='right' style='width:400px;height:400px'/>
 
-<iframe src="//player.bilibili.com/player.html?aid=5444749&cid=8848696&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
 > 中大零饭扫码点餐系统
 
 + [GitHub Pages](https://dtosaad.github.io)
