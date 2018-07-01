@@ -1,5 +1,8 @@
 # API 文档
 
++ URL 前缀："https://${host}/weapp"
++ 每个 URL 后面都默认要加上 ?user_id= 的参数。
+
 ## 1. 扫码点餐
 
 ### 1.1. 用户登录
@@ -102,7 +105,7 @@
 
 ```JSON
 {
-  "user_id":15333333,
+  "table_id": 1,
   "dishes": [
     {
       "dish_id": 1,
@@ -125,19 +128,47 @@
 
 + `eating_mode` 用餐方式，`0` 代表堂食，`1` 代表外带，`2` 代表外卖
 + `takeout_info` 外卖信息，如果用餐方式不是外卖，这一项为 `null`
++ `discount_id` 如果没有优惠券则为 `null`
+
+```JSON
+{
+  "order_id": 1
+}
+```
+
+### 1.7 加菜
+
+> PUT /orders/:order_id
+
+```JSON
+[
+  {
+    "dish_id": 1,
+    "amount": 2,
+    "price": 10.00
+  }
+]
+```
+
+表示 1 号菜加两份，总共需要加钱 20.00.
+
+### 1.8 付款（非协同模式下）
+
+> POST /orders/:order_id/pay
+
+```JSON
+{
+  "table_id": 1
+}
+```
 
 ## 2. 协同点餐
 
-1. table 表需要增加一个 orderers_count（整数）以及 user_avatar（字符串）的字段，表示正在该桌子上点餐的人数，用于协同点餐的人数判断。
-2. 需要增加一张 table_dish 表来存某张桌子点餐过程中所点的菜品
-  + td_id 作为主键
-  + table_id
-  + dish_id
-  + count  表示当前这道菜同时被点了多少次
+table 表需要增加一个 orderers_count, orderers_total（整数）以及 user_avatar（字符串）的字段，表示正在该桌子上点餐的人数，用于协同点餐的人数判断。
 
 ### 2.1. 获取桌子信息
 
-> GET /tables/:table_id?user_id=
+> GET /tables/:table_id
 
 用户扫码进入小程序时，会自动出发此 API，服务端从数据库查询 table 信息，如果发现 user_id 为 null 时，要改为当前用户的 user_id，而且要设 orderers_count 为 1。
 
@@ -146,49 +177,51 @@
   "table_id": 1,
   "number": "A1",
   "user_id": 1,
-  "orderers_count": 0
+  "order_id": 1,
+  "orderers_count": 2,
+  "orderers_total": 3,
+  "user_avatar": "xxx",
+  "status": 1
 }
 ```
 
+`status`：0 代表空闲，1 代表有人，2 代表被预订
+
 ### 2.1. 确认参与协同点餐
 
-> POST /tables/:table_id/together?userid=
+> POST /tables/:table_id/together
 
 用户进入菜单页的时候，如果检测到已经有人在点餐，则前端提示是否进入协同点餐模式，用户选择是则触发此 API。对应 table 的 orderers_count 要加 1。
 
 ### 2.2. 上传当前已点的菜品
 
-> POST /tables/:table_id/dishes?userid=
-
-此 API 只在协同点餐状态下才会使用（每隔 3s 调用一次）。
+> POST /tables/:table_id/dishes
 
 ```JSON
-[
-  {
-    "dish_id": 1,
-    "name": "蛋炒饭",
-    "ordered_count": 1 
-  }
-]
+[]
 ```
 
 返回最新的协同点餐信息：
 
 ```JSON
-[
-  {
-    "dish_id": 1,
-    "name": "蛋炒饭",
-    "ordered_count": 1 
-  }
-]
+[]
 ```
 
-### 2.3. 协同模式下提交订单
+### 2.3. 协同模式下确认点餐完毕
 
-> POST /orders/together?table_id=
+> POST /tables/:table_id/commit
 
-比如 A, B 两人同时点餐，A 先点好了就用这个 API 提交，B 是最后一个点好的，就要进入订单确认页面。服务端对于这个 API 的处理只需要将对应 table 的 orderers_count 减 1 即可。
+前端记得在 commit 之前要上传下当前已点的菜品。
+
+### 2.4 付款（协同模式下）
+
+> POST /orders/:order_id/pay/together
+
+```JSON
+{
+  "table_id": 1
+}
+```
 
 ## 3. 显示桌位
 
@@ -207,21 +240,23 @@
 ]
 ```
 
-### 3.2. 预定桌位
+### 3.2. 坐下/预定桌位
 
-> POST /tables/:table_id/reservation?user_id=
+> POST /tables/:table_id
 
-如果数据库 table 表对应的记录 user_id 为空，则预定成功（15分钟后取消）。
+```
+{}
+```
 
-### 3.2. 取消预定
+### 3.2. 离开/取消预订桌位
 
-> DELETE /tables/:table_id/reservation?user_id=
+> DELETE /tables/:table_id
 
 ## 4. 其它
 
 ### 4.1. 菜品反馈
 
-> POST /dishes/:dish_id/review?user_id=
+> POST /dishes/:dish_id/review
 
 ```JSON
 {
@@ -237,7 +272,7 @@
 
 #### 4.3.1 获取用户当前的抵用券
 
-> GET /discounts?userid=
+> GET /discounts
 
 ```JSON
 [
