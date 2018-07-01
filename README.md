@@ -2,6 +2,8 @@
 
 <img src='assets/logo.png' align='right' style='width:400px;height:400px'/>
 
+<iframe src="//player.bilibili.com/player.html?aid=5444749&cid=8848696&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 > 中大零饭扫码点餐系统
 
 + [GitHub Pages](https://dtosaad.github.io)
@@ -51,6 +53,7 @@ X1. [Meeting Recordings（会议记录）](meeting_recordings.md)
 + [Meeting 4 - Iteration 4](meeting_recordings.md#metting-4---iteration-4)
 
 X2. 建模练习
+
 + [美团外卖用例文档](modeling_exercises/meituanwaimai.md)
 + [其他小组的建模结果与评价](modeling_exercises/reviews.md)
 + [个人建模练习](modeling_exercises/addition.md)
