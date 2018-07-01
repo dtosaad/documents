@@ -5,8 +5,6 @@
 > 中大零饭扫码点餐系统
 
 + [GitHub Pages](https://dtosaad.github.io)
-+ [Tower 团队管理](https://tower.im/projects/8d7d7a72725242b3beb1609174e058ba/)
-+ [Modao 原型工具](https://modao.cc/app/YiH5dTdxFF3JzQAkRsSjOWMHPRmoodZ)
 
 ---
 
@@ -59,8 +57,9 @@ X2. 建模练习
 
 X3. Final Report
 
-- [课程学习自我总结](personal_summary.md)
-- [PSP 2.1 统计表](psp-2.1_count.md)
-- [个人分支的 GIT 统计报告截图](git_screenshot.md)
-- [自认为最得意/或有价值/或有苦劳的工作清单，含简短说明（一句话）](work_list.md)
-- [个人的技术类、项目管理类博客清单（只需要名称与 url ）](blog_list.md)
+- [15331426 - ZMX](final_reports/15331426_ZMX.md)
+- [15331414 - ZZY](final_reports/15331414_ZZY.md)
+- [15331424 - ZZ](final_reports/15331424_ZZ.md)
+- [15331427 - ZRL](final_reports/15331427_ZRL.md)
+- [15331430 - ZP](final_reports/15331430_ZP.md)
+- [15331413 - ZZJ](final_reports/15331413_ZZJ.md)
