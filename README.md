@@ -4,7 +4,8 @@
 
 > 中大零饭扫码点餐系统
 
-+ [GitHub Pages](https://dtosaad.github.io)
++ [GitHub Pages](https://dtosaad.github.io/documents)
++ [功能演示视频](https://www.bilibili.com/video/av26106597)
 
 ---
 
