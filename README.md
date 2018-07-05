@@ -44,24 +44,21 @@
   + 8.4. [Readme](README.md)
 
 X1. [Meeting Recordings（会议记录）](meeting_recordings.md)
-
-+ [Meeting 0 - Inception](meeting_recordings.md#metting-0---inception)
-+ [Meeting 1 - Iteration 1](meeting_recordings.md#metting-1---iteration-1)
-+ [Meeting 2 - Iteration 2](meeting_recordings.md#metting-2---iteration-2)
-+ [Meeting 3 - Iteration 3](meeting_recordings.md#metting-3---iteration-3)
-+ [Meeting 4 - Iteration 4](meeting_recordings.md#metting-4---iteration-4)
+  + [Meeting 0 - Inception](meeting_recordings.md#metting-0---inception)
+  + [Meeting 1 - Iteration 1](meeting_recordings.md#metting-1---iteration-1)
+  + [Meeting 2 - Iteration 2](meeting_recordings.md#metting-2---iteration-2)
+  + [Meeting 3 - Iteration 3](meeting_recordings.md#metting-3---iteration-3)
+  + [Meeting 4 - Iteration 4](meeting_recordings.md#metting-4---iteration-4)
 
 X2. 建模练习
-
-+ [美团外卖用例文档](modeling_exercises/meituanwaimai.md)
-+ [其他小组的建模结果与评价](modeling_exercises/reviews.md)
-+ [个人建模练习](modeling_exercises/addition.md)
+  + [美团外卖用例文档](modeling_exercises/meituanwaimai.md)
+  + [其他小组的建模结果与评价](modeling_exercises/reviews.md)
+  + [个人建模练习](modeling_exercises/addition.md)
 
 X3. Final Report
-
-- [15331426 - ZMX](final_reports/15331426_ZMX.md)
-- [15331414 - ZZY](final_reports/15331414_ZZY.md)
-- [15331424 - ZZ](final_reports/15331424_ZZ.md)
-- [15331427 - ZRL](final_reports/15331427_ZRL.md)
-- [15331430 - ZP](final_reports/15331430_ZP.md)
-- [15331413 - ZZJ](final_reports/15331413_ZZJ.md)
+  - [15331426 - ZMX](final_reports/15331426_ZMX.md)
+  - [15331414 - ZZY](final_reports/15331414_ZZY.md)
+  - [15331424 - ZZ](https://painterdrown.github.io/saad/final-report)
+  - [15331427 - ZRL](final_reports/15331427_ZRL.md)
+  - [15331430 - ZP](final_reports/15331430_ZP.md)
+  - [15331413 - ZZJ](final_reports/15331413_ZZJ.md)
