@@ -278,7 +278,7 @@ table 表需要增加一个 orderers_count, orderers_total（整数）以及 use
 [
   {
     "discount_id": 1,
-    "discount": 50
+    "money": 50
   }
 ]
 ```
